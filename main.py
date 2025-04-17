@@ -19,7 +19,7 @@ if torch.cuda.is_available():
 #     device = 'mps'
 else:
     device = 'cpu'
-device = 'cpu'
+# device = 'cpu'
 save_model = True
 
 
